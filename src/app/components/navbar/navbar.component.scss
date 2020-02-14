@@ -1,0 +1,19 @@
+@import '../../scss/color';
+
+::ng-deep {
+  .ant-row-flex {
+    .ant-col {
+      button {
+        font-weight: bold;
+        background: rgba($color: $mainColor_lbg, $alpha: 0.1);
+        color: $mainColor_lbg;
+        border: $mainColor_lbg 1px solid;
+        height: 10vh;
+        &:hover {
+          color: $mainColor_w;
+          background: $mainColor_lbg;
+        }
+      }
+    }
+  }
+}

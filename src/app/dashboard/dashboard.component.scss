@@ -1,0 +1,9 @@
+@import '../scss/color';
+
+::ng-deep {
+  div {
+    &.nav-container {
+      padding: 10px 0;
+    }
+  }
+}
